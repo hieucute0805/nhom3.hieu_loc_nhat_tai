@@ -1,0 +1,61 @@
+            
+            <?php include('layout/nut_lienhe.html'); ?>
+            <?php include('layout/header.html'); ?>
+            <?php include('layout/banner.html'); ?>
+            <?php include('layout/main.html'); ?>
+            <?php include('layout/nhataitro.html'); ?>
+            <?php include('layout/footer.html'); ?>
+            <?php include('layout/ban_quyen.html'); ?>
+
+            
+            <div class="bocuc  bocuc_28 ">
+                <div class="loprong">
+                    <div class="padding ">
+                         <?php include('layout/danhmuc.html'); ?>
+                         <?php include('layout/trangchu.html'); ?>
+                    </div>
+                </div>
+            </div>
+
+
+            <?php
+while($row_sp = mysqli_fetch_assoc($query_sp)) { ?>                                        
+            
+                   <ul>    
+        <div class="div_noidung">
+            <div class="truong anh"><a title="<td><?php echo $row_sp['TenSP']; ?> </td>"
+                    href="may-quet-fujitsu-scanner-s1300i-id13.html"><img alt="<td><?php echo $row_sp['TenSP']; ?> </td>"
+                        class="lazy anh_sanpham_danhsach"
+                        data-src="../img/<?php echo $row_sp['HinhAnh'];?>"
+                        src="../img/<?php echo $row_sp['HinhAnh'];?>"></a><a
+                    rel="nofollow" href="/giohang.html" class="bieutuongdamua bieutuongdamua bieutuongdamua13"><i
+                        class="fal fa-2x fa-shopping-bag"></i><span></span></a></div>
+            <div class="truong nutmuahang"><label class="nut_dat" onclick="dathang(13) ;"><span>Mua hàng</span></label>
+            </div>
+            <div class="html200"><a class="chitiet" href="http://u604647.webmienphi.vn/may-quet-fujitsu-scanner-s1300i-id13.html"
+                    style="border:1px solid #e03232;padding:10px 15px; margin:10px 0;display:inline-block;background:#e03232;color:#fff;font-size:14px;">Xem
+                    chi tiết</a></div>
+            <h2 class="truong tieude"><a title="<td><?php echo $row_sp['TenSP']; ?> </td>"
+                    href="may-quet-fujitsu-scanner-s1300i-id13.html"><td><?php echo $row_sp['TenSP']; ?> </td></a></h2>
+            <div class="gia"><strong>13.500.000</strong> <span>đ</span></div>
+            <div class="truong giacu"><span>15.000.000 <span>đ</span></span></div>
+            <div class="phantram"><span class="so_phantram">10</span> <span class="dau_phantram">%</span></div>
+            <div class="html201"><img style="width:25%;position:absolute;top:0;right:0;"
+                    src="http://u604647.webmienphi.vn/userfiles/img/604647/iconnew.png"></div>
+
+        </div>
+    </li>
+
+
+ <?php } ?>   
+
+
+
+ <?php
+                        
+                            while($row_sp = mysqli_fetch_assoc($query_sp)) {
+                                if ($row_sp['MaDM'] = $row_dm['MaDM']) { ?>   
+
+                            <?php } else {
+                            echo "0";
+                            } }   ?

@@ -1,0 +1,14 @@
+
+
+.nhom_nut_edit{position:absolute; z-index:9999; left:12px; top:0px;}
+.ochua_edit{ left:1px; top:1px;}
+
+.nhom_nut_edit i{ background:#FFC; color:#000; font-size:14px}
+.nhom_nut_edit i:hover{ background:#FC0; color:#000; font-size:14px}
+ .scrollup {
+    display: none;
+    text-indent: -9999px;
+	cursor:pointer;
+}
+
+ 

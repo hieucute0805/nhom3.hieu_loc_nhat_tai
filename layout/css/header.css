@@ -1,0 +1,241 @@
+.bocuc_24 {
+  display: block;
+  vertical-align: top;
+  background: #262a2e;
+}
+.bocuc_24 > .loprong {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bocuc_25 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.bocuc_25 > .loprong > .padding {
+  padding: 10px 0;
+}
+.bocuc_25 > div > .giua > .padding {
+  padding: 10px 0;
+}
+.bocuc_25 > .loprong > div > .giua > .padding {
+  padding: 10px 0;
+}
+.bocuc_25 > .loprong > .giua > .padding {
+  padding: 10px 0;
+}
+.bocuc_25 .anh_1 {
+  width: 11%;
+}
+#menu_26 li,
+#menu_26 ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+#menu_26 a {
+  display: block;
+}
+.box_wrap_ .padding {
+  padding: 0;
+}
+.bocuc_26 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.bocuc_26 > .loprong > .padding {
+  padding: 30px 0;
+  color: #ffffff;
+}
+.bocuc_26 > div > .giua > .padding {
+  padding: 30px 0;
+  color: #ffffff;
+}
+.bocuc_26 > .loprong > .padding a {
+  color: #ffffff;
+}
+.bocuc_26 > .loprong > div > .giua > .padding {
+  padding: 30px 0;
+  color: #ffffff;
+}
+.bocuc_26 > .loprong > div > .giua > .padding a {
+  color: #ffffff;
+}
+.bocuc_26 > .loprong > .giua > .padding {
+  padding: 30px 0;
+  color: #ffffff;
+}
+.bocuc_26 > .loprong > .giua > .padding a {
+  color: #ffffff;
+}
+#menu_26 a {
+  color: inherit;
+}
+#menu_26 > ul > li {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+}
+#menu_26 > ul > li:hover > a {
+  color: #e03232;
+}
+#menu_26 > ul > .dang_chon > a {
+  color: #e03232;
+}
+#menu_26 > ul > li > a {
+  padding: 0 5px;
+}
+#menu_26 > ul > li > ul {
+  color: #cccccc;
+}
+#menu_26 > ul > li > ul > a {
+  color: #cccccc;
+}
+#menu_26 > ul > li > ul > li {
+  background-color: #262a2e;
+  color: #cccccc;
+}
+#menu_26 > ul > li > ul > li > a {
+  padding: 8px;
+  white-space: nowrap;
+}
+#menu_26 > ul > li > ul > li > ul > li {
+  background-color: #262a2e;
+  color: #ffffff;
+}
+#menu_26 > ul > li > ul > li > ul > li > a {
+  color: #ffffff;
+}
+#menu_26 > ul > .ngoinha_li .ngoinha {
+  font-size: medium;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+#menu_26 .dang_chon > a {
+  font-weight: bold;
+}
+#menu_26 > ul > li > ul > li > ul > li > ul > li {
+  background-color: #262a2e;
+  color: #ffffff;
+}
+#menu_26 > ul > li > ul > li > ul > li > ul > li > a {
+  color: #ffffff;
+}
+#menu_26 > ul > li > ul > div > li {
+  background-color: #262a2e;
+  color: #cccccc;
+}
+#menu_26 > ul > li > ul > div > li > a {
+  padding: 8px;
+}
+#menu_26 > ul > li > ul > div > li > ul > li {
+  background-color: #262a2e;
+  color: #ffffff;
+}
+#menu_26 .menu_bang1 {
+  position: initial;
+  white-space: inherit;
+}
+#menu_26 > ul {
+  width: 100%;
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  #menu_26 > ul {
+    display: none;
+    background-color: #e03232;
+  }
+}
+#menu_26 > ul > li {
+  display: inline-block;
+}
+#menu_26 > ul > li {
+  text-align: center;
+}
+#menu_26 .relative_cap1 li {
+  white-space: nowrap;
+}
+#menu_26 .ul2,
+#menu_26 .ul3,
+#menu_26 .ul4 {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  background: #fff;
+  left: 0;
+  min-width: 100%;
+  text-align: left;
+}
+#menu_26 > .ul1 > li:nth-last-of-type(1) > .ul2 {
+  right: 0;
+  left: inherit;
+}
+#menu_26 > .ul1 > li:nth-last-of-type(2) > .ul2 {
+  right: 0;
+  left: inherit;
+}
+@media only screen and (max-width: 600px) {
+  #menu_26 .ul3,
+  #menu_26 .ul4 {
+    position: inherit;
+    display: block;
+    left: inherit !important;
+    top: inherit !important;
+  }
+  #menu_26 .ul2 {
+    overflow: scroll;
+  }
+  #menu_26 .ul2 > li {
+    position: inherit !important;
+  }
+  #menu_26 .hienthimenu {
+    overflow: scroll;
+  }
+}
+#menu_26 .nua1 {
+  left: 0;
+}
+#menu_26 .nua2 {
+  left: -100px;
+}
+#menu_26 .nua4 {
+  right: -100px;
+  left: inherit;
+}
+#menu_26 .nua3 {
+  right: -300px;
+  left: inherit;
+}
+#menu_26 .ul2 > li {
+  position: relative;
+}
+#menu_26 .ul2 {
+  min-width: 100%;
+}
+#menu_26 .menu_bang1 .ul2 {
+  min-width: 0;
+}
+#menu_26 .ul2 .menu_bang2 {
+  position: initial;
+}
+#menu_26 .ul3 {
+  top: 0;
+  left: 100%;
+}
+#menu_26 .ul3 > li {
+  white-space: nowrap;
+  padding-right: 10px;
+}
+#menu_26 .ul4 {
+  top: 0;
+  left: 100%;
+}
+#menu_26 ul li:hover > ul {
+  display: block;
+}
+#menu_26 > ul > li > ul > div {
+  display: inline-block;
+  vertical-align: top;
+}

@@ -1,0 +1,15 @@
+.bocuc_54 {
+  display: block;
+  vertical-align: top;
+  background: #f5f5f5;
+}
+.bocuc_54 > .loprong {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bocuc_54 > .loprong > .padding ,
+.bocuc_54 > div > .giua > .padding ,
+.bocuc_54 > .loprong > div > .giua > .padding ,
+.bocuc_54 > .loprong > .giua > .padding {
+  padding: 20px 0;
+}
